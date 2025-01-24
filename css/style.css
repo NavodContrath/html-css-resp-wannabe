@@ -132,16 +132,38 @@ img {
 @media screen and (max-width: 1140px) {
 
     .container {
-        max-width: 900px;
+        max-width: 100%;
         margin: 0 auto;
         padding: 0 20px;
     }
 
+
+
 }
 
 
-@media screen and (max-width: 480px) {
-    .container {
-        background-color: #232946;
+@media screen and (max-width: 570px) {
+    .row {
+        flex-wrap: wrap;
+    }
+
+    .lessons .col {
+        min-width: 100%;
+    }
+
+    .steps .col {
+        min-width: 100%;
+    }
+
+    .why-us .col {
+        min-width: 100%;
+    }
+
+    .card {
+        margin: 2rem auto;
+    }
+
+    .col-right ul {
+        margin-top: 4rem;
     }
 }
